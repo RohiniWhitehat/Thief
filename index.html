@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en">
+  <head>
+  <script src="p5.js"></script>
+  <script src="p5.dom.min.js"></script>
+  <script src="p5.sound.min.js"></script>
+  <script src="matter.js"></script>
+  <script src="p5.play.js"></script>
+
+  <script src="Form.js"></script>
+  <script src="Game.js"></script>
+  <script src="Player.js"></script>
+  <!-- Link game.js and player.js -->
+
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+
+
+  <script>
+    const firebaseConfig = {
+  apiKey: "AIzaSyCiHYxCjcykEmhsJjbmkNwT8IhcIKYRKK0",
+  authDomain: "catch-the-thief-4a5a0.firebaseapp.com",
+  databaseURL:"https://catch-the-thief-4a5a0-default-rtdb.firebaseio.com",
+  projectId: "catch-the-thief-4a5a0",
+  storageBucket: "catch-the-thief-4a5a0.appspot.com",
+  messagingSenderId: "80433573239",
+  appId: "1:80433573239:web:ba45e23d858071701b0572"
+};
+
+// // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  </script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
